@@ -1,5 +1,5 @@
 (function () {
-	console.log('YES');
+	console.log('YES 2');
    	alert('hello');
 })();
 
