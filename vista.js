@@ -15,6 +15,7 @@
 
 	function vistaNzz() {
 		if (isHost("nzz")) {
+			console.log("ascsdas");
 			deleteCookie("creid", "/", ".nzz.ch");
 		}
 	}
