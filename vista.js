@@ -41,7 +41,7 @@
 
 		else var expires = "";
 		//document.cookie = name + "=" + value + expires + "; path=/";
-		document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=.nzz.ch";
+		document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT; domain=.nzz.ch; path=/";
 	}
 
 })();
