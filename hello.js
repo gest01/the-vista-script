@@ -1,6 +1,6 @@
 (function () {
-	console.log('YES 22');
-   	alert('hello');
+	console.log('removing overlay wrap...');
+	$("#overlay_wrap" ).remove();
 })();
 
 
