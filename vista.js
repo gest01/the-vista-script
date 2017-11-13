@@ -4,6 +4,14 @@
 
 	vistaTagi();
 	vistaNzz();
+	
+	function vistaSpiegel(){
+		if (isHost("spiegel")) {
+			console.log("...spiegel");
+			$(".laterpay-under-overlay").next().children().children("svg").next().removeClass()
+			SPLaterpay.callback.hasAccess();
+		}
+	}
 
 	function vistaTagi() {
 		if (isHost("tagesanzeiger")) {
