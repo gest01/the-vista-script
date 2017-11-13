@@ -4,6 +4,7 @@
 
 	vistaTagi();
 	vistaNzz();
+	vistaSpiegel();
 	
 	function vistaSpiegel(){
 		if (isHost("spiegel")) {
