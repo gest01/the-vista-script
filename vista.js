@@ -9,8 +9,9 @@
 	function vistaSpiegel(){
 		if (isHost("spiegel")) {
 			console.log("...spiegel");
-			$(".laterpay-under-overlay").next().children().children("svg").next().removeClass()
+			$(".laterpay-under-overlay").next().children().children("svg").next().removeClass();
 			SPLaterpay.callback.hasAccess();
+			$("#js-article-column>div>div>div>div>div>div>div").filter(function(){if("SPIEGEL Plus"===$(this).text())return 1}).parent().parent().parent().css("display","none");
 		}
 	}
 
